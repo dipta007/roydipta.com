@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dipta007.github.io/al-folio-srd/sitemap.xml
+Sitemap: https://dipta007.github.io/al-folio-srd//sitemap.xml
