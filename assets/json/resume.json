@@ -24,46 +24,125 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "University of Maryland, Baltimore County",
+      "position": "Graduate Research Assistant",
+      "url": "https://umbc.edu/",
+      "startDate": "2021-01-21",
+      "endDate": "Present",
+      "summary": "",
+      "skills": "Skills: PyTorch, Python, Hugging Face, Scikit‐Learn, LLM, SQL, Spacy, NLTK, Pandas, Numpy, Matplotlib, Seaborn, Weight & Biases, Hydra",
       "highlights": [
-        "Relativity"
+        "Spearheaded a novel, hierarchical, semi-supervised event modeling framework, achieving up to 8.5% improvement over prior state-of-the-art approaches in 2 datasets and across 4 evaluation metrics. (Published on <a href='https://aclanthology.org/2023.starsem-1.31/'>*SEM 23, ACL</a>)",
+
+        "Pioneering first-of-its-kind multimodal counterfactual generation dataset (8k+ real-life events), merging text and images for nuanced alternate timeline, a novel contribution to counterfactual reasoning and multimodal real-life event understanding.",
+
+        "Collaboratively developing a Graph Convolutional Network for event understanding and reasoning on 2 complex datasets (250k+ data-driven event graphs), advancing research in the field of graph-based machine learning.",
+
+        "Mentoring and providing research guidance to an undergraduate who is a member of an underrepresented group in CS."
+      ]
+    },
+    {
+      "name": "Backpack",
+      "position": "Machine Learning Engineer",
+      "url": "https://backpackbang.com/",
+      "startDate": "2018-10-01",
+      "endDate": "2019-03-31",
+      "summary": "",
+      "skills": "Skills: PyTorch, Keras, Hugging Face, Large Language Model, NLTK, Python, MySQL, Elasticsearch, AWS EC2, Node.js, React",
+      "highlights": [
+        "Boosted the sale by ≈23% by developing a product recommendation system using Product2Vec embedding.",
+
+        "Engineered a Chatbot combining AI algorithms with logic-based if-else, decreasing response time by ≈1 hour.",
+
+        "Decreased server cost by ≈10% by implementing an AWS Lambda-based ML pipeline for online learning.",
+
+        "Build a model to predict the dimension of a product from the known datasets which helped the traveller team to allocate the luggage by ≈20% more efficiently.",
+
+        "Implemented a microservice to refresh the inventory every 12 hours which is later fetched by Facebook Ads, decreasing marketing labour by ≈10%.",
+
+        "Implemented super menu on the e-commerce site to categorise products which helped ~60% users to find the right product more quickly.",
+
+        "Give a ≈110% better user experience on search using word embeddings.",
+
+        "Handled whole Facebook ads system, regarding this implemented many scripts and microservices",
+
+        "Implemented curation scripts to curate data from Amazon, Ebay or other US based e-commerce sites."
+      ]
+    },
+    {
+      "name": "UniShopr",
+      "position": "Founder & Chief Technology Officer",
+      "url": "https://unishopr.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-20",
+      "summary": "",
+      "skills": "Tech Stack: Python, Node.js, React, PostgreSQL, GraphQL, AWS Lambda, AWS Lightsail",
+      "highlights": [
+        "Single-handedly grew e-commerce to 1000+ active users and $40000/month orders.",
+
+        "Achieved a successful startup exit, securing a $50,000 sale, demonstrating strategic acumen."
+      ]
+    },
+    {
+      "name": "Sapien.Network",
+      "position": "Full Stack Software Engineer",
+      "url": "https://www.sapien.network/",
+      "startDate": "2019-04-01",
+      "endDate": "2021-01-20",
+      "summary": "",
+      "skills": "Tech Stack: Python, JavaScript, Elixir, Node.js, React, PostgreSQL, GraphQL, Redis",
+      "highlights": [
+        "Multi-factor Authentication",
+
+        "Backend posts caching using Redis",
+
+        "Implemented Google ReCaptcha to prevent bots and frauds",
+
+        "Worked with elixir to implement a scalable chat messenger",
+
+        "Integrated kickofflabs for referral contest",
+
+        "Integrated sendgrid for 3rd party mailing service",
+
+        "Integrated ActiveCampaign for campaign management and marketing",
+
+        "Integrated OneSignal for push notification in iOS, Android & Web",
+
+        "Fixed a good number of Backend and Frontend issues"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Maryland, Baltimore County",
+      "url": "https://umbc.edu/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "startDate": "2021-01-21",
+      "endDate": "Present",
+      "score": "4.00/4.00",
+      "courses": []
+    },
+    {
+      "institution": "University of Maryland, Baltimore County",
+      "url": "https://umbc.edu/",
+      "area": "Computer Science",
+      "studyType": "MSc",
+      "startDate": "2021-01-21",
+      "endDate": "2023-04-24",
+      "score": "4.00/4.00",
+      "courses": []
     }
   ],
   "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
   ],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Bengali",
       "fluency": "Native speaker"
     },
     {
@@ -71,7 +150,20 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Programming 👨🏻‍💻"
+    },
+    {
+      "name": "Photography 📸"
+    },
+    {
+      "name": "Exercise 🏋️"
+    },
+    {
+      "name": "Traveling ✈️"
+    }
+  ],
   "references": [],
   "projects": []
 }
