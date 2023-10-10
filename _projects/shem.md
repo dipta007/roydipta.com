@@ -17,4 +17,4 @@ Published in: *SEM, ACL 2023
 Paper Link: https://aclanthology.org/2023.starsem-1.31/
 GitHub Link: https://github.com/dipta007/SHEM
 
-![SHEM flowchart](assets/img/project/shem.png)
+![SHEM flowchart](../assets/img/project/shem.png)
