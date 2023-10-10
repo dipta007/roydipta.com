@@ -21,12 +21,14 @@
     // sort on first time load
     $grid.isotope({
         sortBy: 'importance',
+        ascending: false,
     });
     $('.filter-button-group').on('click', 'a', function () {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({
             filter: filterValue,
             sortBy: 'importance',
+            ascending: false,
         });
     });
     $('.button-group a.btn').on('click', function () {

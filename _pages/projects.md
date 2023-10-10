@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+hide_title: true
 permalink: /projects/
 description:
 nav: true
@@ -11,9 +12,9 @@ display_categories: [Machine-Learning, Data-Science]
 <!-- pages/projects.md -->
 <div class="projects">
   {%- if site.enable_project_categories and page.display_categories %}
-    <div class="button-group filter-button-group text-center">
+    <div class="button-group filter-button-group text-center" style="margin-bottom: 40px">
       {%- for category in page.display_categories %}
-        <a class="btn btn-sm btn-primary" data-filter=".{{category}}">{{category | replace: "-", " "}}</a>
+        <a class="btn btn-sm btn-primary" data-filter=".{{category | downcase}}">{{category | replace: "-", " "}}</a>
       {%- endfor %}
       <a class="btn btn-sm btn-primary active" data-filter="*">All</a>
     </div>

@@ -272,8 +272,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Roy Dipta, Dipta, R. Dipta, Roy, R.]
+  first_name: [Shubhashis, Shubhashis Roy, Shubhashis Roy Dipta, Shubhashis R. Dipta, Shubhashis Roy Dipta, Shubhashis R. Dipta, Shubhashis Roy, Shubhashis R.]
 
   style: apa
   locale: en
