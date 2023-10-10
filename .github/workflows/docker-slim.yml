@@ -7,12 +7,12 @@ on:
     types:
       - completed
 
-# on: 
+# on:
 #   push:
-#     branches: 
+#     branches:
 #       - 'master'
 
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'alshedivat'
@@ -30,13 +30,13 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        
+
     - name: update docker-compose
       shell: bash
       run:  |
-        sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml 
-        cat ${{ github.workspace }}/docker-compose.yml 
-        
+        sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml
+        cat ${{ github.workspace }}/docker-compose.yml
+
     - uses: kitabisa/docker-slim-action@v1.0.3
       env:
         DSLIM_PULL: true

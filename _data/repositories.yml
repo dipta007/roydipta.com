@@ -1,12 +1,10 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - torvalds
+#   - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - dipta007/SHEM
+  - dipta007/SEMal
+  - dipta007/SeeBel
+  - dipta007/Competitive-Programming
+  - dipta007/amazon-scrapper-1M-nodejs

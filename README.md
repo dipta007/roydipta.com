@@ -32,7 +32,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>  
+<a href="https://martinbulla.github.io" target="_blank">★</a>
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
 <a href="https://maithraraghu.com" target="_blank">★</a>
@@ -230,7 +230,7 @@ You need to take the following steps to get `al-folio` up and running on your lo
 $ docker compose up
 ```
 
-Note that when you run it for the first time, it will download a docker image of size 400MB or so. 
+Note that when you run it for the first time, it will download a docker image of size 400MB or so.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 

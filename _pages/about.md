@@ -1,15 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Researcher | NLP | CV | Multimodal Gen AI | Data Science
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>sroydip1@umbc.edu</p>
+    <p><span class="emph">sroydip1</span>@umbc.edu</p>
     <p>Baltimore, Maryland-21227</p>
 
 news: true  # includes a list of news items
@@ -18,8 +19,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I’m Shubhashis Roy Dipta. I'm pursuing my Ph.D. in Computer Science from the University of Maryland, Baltimore County. I am working as a Research Assistant under ![Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/). Our work combines Natural Language Processing & Computer Vision. My project includes counterfactual story generation from video and story.
+I am a PhD Researcher in Computer Science at the University of Maryland, Baltimore County, where I work with [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) on cutting-edge projects that combine natural language processing (NLP) and computer vision (CV). During past years, I have published papers on top-tier conferences and journals ([Google Scholar](https://scholar.google.com/citations?user=j2ElsNIAAAAJ&hl=en)). My previous work involved a hierarchical model to learn event frames and regenerate the events in a semi-supervised way, which can be applied to various domains such as text summarization, question answering, and counterfactual reasoning. My current project includes multimodal (language + vision) counterfactual event reasoning, understanding, and generation.
 
-Previously, I worked as a Full-Stack Software Engineer in Sapien.Network, New York, USA. I have 3+ years of experience in the Software Industry. During that time, I have also worked with Dr. Iman Dehzangi (Rutgers University) and published 4 journal papers.
+I completed my M.Sc. in CS with [Phi Kappa Phi](https://phikappaphi.meritpages.com/stories/Shubhashis-Roy-Dipta-Inducted-into-The-Honor-Society-of-Phi-Kappa-Phi/107714395) (CGPA 4.0/4.0) from the University of Maryland, Baltimore County, in Spring 2023. I completed my B.Sc. in CSE from the [Military Institute of Science & Technology](https://mist.ac.bd/) in 2016 (CGPA 3.51/4.0).
 
-I completed my B.Sc. in CSE from the Military Institute of Science & Technology in 2016 (CGPA 3.51/4.0). I have participated in 30+ programming contests and several app competitions during my undergrad. I completed my M.Sc. in CS with Phi Kappa Phi (CGPA 4.0/4.0) from the University of Maryland, Baltimore County, in Spring 2023.
+Before joining PhD, I worked as a Full-Stack Software Engineer in [Sapien.Network](https://www.sapien.network/), New York, USA. I have 3+ years of experience in the Software Industry. During that time, I have also worked with [Dr. Iman Dehzangi](https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/) (Rutgers University) and published 4 journal papers.
+
+With over 3 years of experience in developing full-stack software solutions for various startups and companies, I have gained proficiency in multiple languages and frameworks such as Node.js, PHP, MySQL, Apollo GraphQL, Elixir, and more. I have also participated and excelled in several coding competitions, such as the ACM ICPC, where I ranked among the top teams in the region. I am highly enthusiastic and passionate about new technologies and innovations, and I am always eager to learn and improve my skills. I aim to leverage my expertise in NLP, CV, ML, and DL to create impactful and intelligent systems that can enhance human capabilities and well-being.
+
+### Research Interest
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Multimodal (Language + Vision)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Natural Language Processing  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Computer Vision  

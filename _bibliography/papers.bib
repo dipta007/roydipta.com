@@ -3,82 +3,75 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@inproceedings{roy-dipta-etal-2023-semantically,
+  abbr={*SEM, ACL},
+    title = "Semantically-informed Hierarchical Event Modeling",
+    author = "Roy Dipta, Shubhashis  and
+      Rezaee, Mehdi  and
+      Ferraro, Francis",
+    booktitle = "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.starsem-1.31",
+    doi = "10.18653/v1/2023.starsem-1.31",
+    pages = "353--369",
+    abstract={Prior work has shown that coupling sequential latent variable models with semantic ontological knowledge can improve the representational capabilities of event modeling approaches. In this work, we present a novel, doubly hierarchical, semi-supervised event modeling framework that provides structural hierarchy while also accounting for ontological hierarchy. Our approach consistsof multiple layers of structured latent variables, where each successive layer compresses and abstracts the previous layers. We guide this compression through the injection of structured ontological knowledge that is defined at the type level of events: importantly, our model allows for partial injection of semantic knowledge and it does not depend on observing instances at any particular level of the semantic ontology. Across two different datasets and four different evaluation metrics, we demonstrate that our approach is able to out-perform the previous state-of-the-art approaches by up to 8.5{\&#37;}, demonstrating the benefits of structured and semantic hierarchical knowledge for event modeling.},
+    selected={true},
+    bibtex_show={true},
+    pdf={https://aclanthology.org/2023.starsem-1.31.pdf},
+}
+
+@article{arafat2020accurately,
+  abbr={Genes},
+  title={Accurately predicting glutarylation sites using sequential bi-peptide-based evolutionary features},
+  author={Arafat, Md Easin and Ahmad, Md Wakil and Shovan, SM and Dehzangi, Abdollah and Dipta, Shubhashis Roy and Hasan, Md Al Mehedi and Taherzadeh, Ghazaleh and Shatabda, Swakkhar and Sharma, Alok},
+  journal={Genes},
+  volume={11},
+  number={9},
+  pages={1023},
+  year={2020},
+  publisher={MDPI},
+
+  abstract={Post Translational Modification (PTM) is defined as the alteration of protein sequence upon interaction with different macromolecules after the translation process. Glutarylation is considered one of the most important PTMs, which is associated with a wide range of cellular functioning, including metabolism, translation, and specified separate subcellular localizations. During the past few years, a wide range of computational approaches has been proposed to predict Glutarylation sites. However, despite all the efforts that have been made so far, the prediction performance of the Glutarylation sites has remained limited. One of the main challenges to tackle this problem is to extract features with significant discriminatory information. To address this issue, we propose a new machine learning method called BiPepGlut using the concept of a bi-peptide-based evolutionary method for feature extraction. To build this model, we also use the Extra-Trees (ET) classifier for the classification purpose, which, to the best of our knowledge, has never been used for this task. Our results demonstrate BiPepGlut is able to significantly outperform previously proposed models to tackle this problem. BiPepGlut achieves 92.0&#37;, 84.8&#37;, 95.6&#37;, 0.82, and 0.88 in accuracy, sensitivity, specificity, Matthew’s Correlation Coefficient, and F1-score, respectively. BiPepGlut is implemented as a publicly available online predictor.},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{ahmad2020mal,
+  abbr={IEEE Access},
+  title={Mal-light: Enhancing lysine malonylation sites prediction problem using evolutionary-based features},
+  abstract={Post Translational Modification (PTM) is considered an important biological process with a tremendous impact on the function of proteins in both eukaryotes, and prokaryotes cells. During the past decades, a wide range of PTMs has been identified. Among them, malonylation is a recently identified PTM which plays a vital role in a wide range of biological interactions. Notwithstanding, this modification plays a potential role in energy metabolism in different species including Homo Sapiens. The identification of PTM sites using experimental methods is time-consuming and costly. Hence, there is a demand for introducing fast and cost-effective computational methods. In this study, we propose a new machine learning method, called Mal-Light, to address this problem. To build this model, we extract local evolutionary-based information according to the interaction of neighboring amino acids using a bi-peptide based method. We then use Light Gradient Boosting (LightGBM) as our classifier to predict malonylation sites. Our results demonstrate that Mal-Light is able to significantly improve malonylation site prediction performance compared to previous studies found in the literature. Using Mal-Light we achieve Matthew's correlation coefficient (MCC) of 0.74 and 0.60, Accuracy of 86.66&#37; and 79.51&#37;, Sensitivity of 78.26&#37; and 67.27&#37;, and Specificity of 95.05&#37; and 91.75&#37;, for Homo Sapiens and Mus Musculus proteins, respectively. Mal-Light is implemented as an online predictor which is publicly available at: (http://brl.uiu.ac.bd/MalLight/).},
+  author={Ahmad, Md Wakil and Arafat, Md Easin and Taherzadeh, Ghazaleh and Sharma, Alok and Dipta, Shubhashis Roy and Dehzangi, Abdollah and Shatabda, Swakkhar},
+  journal={IEEE access},
+  volume={8},
+  pages={77888--77902},
+  year={2020},
+  publisher={IEEE},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{dipta2020semal,
+  abbr={Elsevier},
+  title={SEMal: Accurate protein malonylation site predictor using structural and evolutionary information},
+  author={Dipta, Shubhashis Roy and Taherzadeh, Ghazaleh and Ahmad, Md Wakil and Arafat, Md Easin and Shatabda, Swakkhar and Dehzangi, Abdollah},
+  journal={Computers in biology and medicine},
+  volume={125},
+  pages={104022},
+  year={2020},
+  publisher={Elsevier},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  selected={true},
+  abstract={Post Transactional Modification (PTM) is a vital process which plays an important role in a wide range of biological interactions. One of the most recently identified PTMs is Malonylation. It has been shown that Malonylation has an important impact on different biological pathways including glucose and fatty acid metabolism. Malonylation can be detected experimentally using mass spectrometry. However, this process is both costly and time-consuming which has inspired research to find more efficient and fast computational methods to solve this problem. This paper proposes a novel approach, called SEMal, to identify Malonylation sites in protein sequences. It uses both structural and evolutionary-based features to solve this problem. It also uses Rotation Forest (RoF) as its classification technique to predict Malonylation sites. To the best of our knowledge, our extracted features as well as our employed classifier have never been used for this problem. Compared to the previously proposed methods, SEMal outperforms them in all metrics such as sensitivity (0.94 and 0.89), accuracy (0.94 and 0.91), and Matthews correlation coefficient (0.88 and 0.82), for Homo Sapiens and Mus Musculus species, respectively. SEMal is publicly available as an online predictor at: http://brl.uiu.ac.bd/SEMal/.}
+}
+
+@article{islam2022methevo,
+  abbr={Springer},
+  title={MethEvo: an accurate evolutionary information-based methylation site predictor},
+  author={Islam, Sadia and Mugdha, Shafayat Bin Shabbir and Dipta, Shubhashis Roy and Arafat, MD Easin and Shatabda, Swakkhar and Alinejad-Rokny, Hamid and Dehzangi, Iman},
+  journal={Neural Computing and Applications},
+  pages={1--12},
+  year={2022},
+  publisher={Springer},
+  bibtex_show={true}
 }
