@@ -1,0 +1,36 @@
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+<script>
+    var $grid = $('.portfolio-grid').imagesLoaded(function () {
+        $grid.isotope({
+            getSortData: {
+                importance: '[importance] parseInt',
+            },
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.grid-sizer',
+                gutter: 10,
+                horizontalOrder: true,
+            }
+        });
+    });
+
+    // sort on first time load
+    $grid.isotope({
+        sortBy: 'importance',
+    });
+    $('.filter-button-group').on('click', 'a', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue,
+            sortBy: 'importance',
+        });
+    });
+    $('.button-group a.btn').on('click', function () {
+        $('.button-group a.btn').removeClass('active');
+        $(this).addClass('active');
+    });
+</script>
