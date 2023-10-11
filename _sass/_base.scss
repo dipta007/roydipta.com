@@ -742,6 +742,18 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+
+        span {
+          display: inline-block;
+          color: $black-color;
+          height: 100%;
+          padding-right: 0.5rem;
+          vertical-align: middle;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
 
       .badges {
