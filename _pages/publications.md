@@ -5,7 +5,7 @@ title: Publications
 description:
 nav: true
 nav_order: 1
-title_link: https://scholar.google.com/
+title_link: https://scholar.google.com/citations?user=j2ElsNIAAAAJ&hl=en
 title_icon: ai ai-google-scholar
 ---
 <!-- _pages/publications.md -->
