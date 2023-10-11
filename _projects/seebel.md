@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SeeBel - Seeing is Believing
-hide_title: true
+title: SeeBel - <u><b>See</b></u>ing is <u><b>Bel</b></u>ieving
+# hide_title: true
 description:
 img: assets/img/project/seebel1.gif
 importance: 1
@@ -10,8 +10,6 @@ giscus_comments: true
 github: https://github.com/dipta007/SeeBel
 social_share: true
 ---
-
-# SeeBel: <ins>See</ins>ing is <ins>Bel</ins>ieving
 
 
 

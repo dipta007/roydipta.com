@@ -9,9 +9,9 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p><span class="emph">sroydip1</span>@umbc.edu</p>
+    <p><span class="emph">sroydip1</span>@<span class="emph">umbc</span>.<span class="emph">edu</span></p>
     <p>Baltimore, Maryland-21227</p>
 
 news: true  # includes a list of news items
