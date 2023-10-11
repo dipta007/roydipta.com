@@ -1,0 +1,10 @@
+<script src="{{ '/assets/js/github-stars.js' | prepend: site.baseurl }}"></script>
+
+<script type="text/javascript">
+    {% for project in site.projects %}
+        {% if project.github and project.github_stars %}
+            {%- assign github_id = project.github | parse_github_link | replace: '/', '-' | replace: ' ', '-' -%}
+            githubStars("{{ project.github }}", function(stars) { $("#{{ github_id }}-stars").text('' + stars); });
+        {% endif %}
+    {% endfor %}
+</script>

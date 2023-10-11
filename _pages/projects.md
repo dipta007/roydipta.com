@@ -20,11 +20,17 @@ display_categories: [Machine-Learning, Data-Science]
     </div>
   {%- endif -%}
 
+  {% assign categories = "" %}
+  {%- for category in page.display_categories %}
+    {% assign categories = categories | append: category | append: " " %}
+  {%- endfor %}
+
   <!-- Display categorized projects -->
   <!-- {%- assign sorted_projects = site.projects | sort: "importance" %} -->
   <!-- Generate cards for each project -->
   <div class="portfolio-grid">
-    <div class="grid-sizer"></div>
+    <div class="grid-sizer {{ categories | replace: ',', '' | downcase }}"></div>
+    <div class="gutter-sizer {{ categories | replace: ',', '' | downcase }}"></div>
     {%- for project in site.projects -%}
       {% include projects.html %}
     {%- endfor %}

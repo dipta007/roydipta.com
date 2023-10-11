@@ -7,6 +7,7 @@ importance: 1
 category: data-science
 giscus_comments: true
 github: https://github.com/dipta007/amazon-scrapper-1M-nodejs
+github_stars: true
 social_share: true
 ---
 
