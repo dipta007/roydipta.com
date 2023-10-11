@@ -7,6 +7,7 @@ importance: 4
 category: machine-learning
 giscus_comments: true
 github: https://github.com/dipta007/SHEM
+social_share: true
 ---
 
 This work presents a new event modeling framework that combines sequential latent variables with ontological knowledge, achieving superior performance by up to 8.5% on various datasets and evaluation metrics compared to previous state-of-the-art methods.

@@ -6,6 +6,8 @@ img: assets/img/project/kaggle_quora.jpeg
 importance: 2
 category: Data-Science, Machine-Learning
 giscus_comments: true
+social_share: true
+code_repo: https://www.kaggle.com/code/dipta007/glove-para/notebook
 ---
 
 In a Kaggle competition, I took on the challenge of combating toxic and insincere content on Quora, a platform dedicated to sharing knowledge and insights. Insincere questions, which often propagate false information or promote divisive agendas, pose a significant issue for maintaining a safe and respectful online environment. My objective was to develop machine learning models that could effectively identify and flag such insincere questions.

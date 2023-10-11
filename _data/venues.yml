@@ -1,3 +1,19 @@
 "ACL":
   url: https://aclanthology.org/
-  color: "#00369f"
+  color: "#ED1C24"
+
+"Genes":
+  url: https://www.mdpi.com/journal/genes
+  color: "#5F497A"
+
+"Elsevier":
+  url: https://www.elsevier.com/
+  color: "#FF6600"
+
+"Springer":
+  url: https://www.springer.com/
+  color: "#FDB515"
+
+"IEEE":
+  url: https://www.ieee.org/
+  color: "#0B6EA7"

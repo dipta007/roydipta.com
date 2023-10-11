@@ -6,7 +6,26 @@ layout: default
 
   <header class="post-header">
     {% if page.hide_title != true %}
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title">{{ page.title }}
+        {% if page.title_link and page.title_icon %}
+          <a href="{{ page.title_link }}" target="_blank" rel="noopener noreferrer" class="float-right">
+            <i class="{{ page.title_icon }}"></i>
+          </a>
+        {% endif %}
+
+        {% if page.github %}
+          <a href="{{ page.github }}" target="_blank" rel="noopener noreferrer" class="float-right">
+            <i class="fab fa-github"></i>
+          </a>
+        {% endif %}
+
+        {% if page.code_repo %}
+          <a href="{{ page.code_repo }}" target="_blank" rel="noopener noreferrer" class="float-right">
+            <i class="fa fa-code"></i>
+          </a>
+        {% endif %}
+
+      </h1>
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
@@ -22,6 +41,10 @@ layout: default
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
   </div>
   {%- endif %}
+
+  {%- if page.social_share -%}
+    {% include social_share.html %}
+  {%- endif -%}
 
   {%- if site.giscus and page.giscus_comments -%}
     {% include giscus.html %}

@@ -4,7 +4,7 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> | <b>NLP</b> | <b>CV</b> | <b>Multimodal Gen AI</b> | <b>Data Science</b>
+  <b>PhD Researcher</b> ⎟ <b>NLP</b> ⎟ <b>CV</b> ⎟ <b>Multimodal Gen AI</b> ⎟ <b>Data Science</b>
 
 profile:
   align: right

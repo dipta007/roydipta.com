@@ -6,6 +6,8 @@ img: assets/img/project/kaggle_bird.jpeg
 importance: 5
 category: Machine-Learning
 giscus_comments: true
+social_share: true
+code_repo: https://www.kaggle.com/code/dipta007/inference-cbirdcall-2
 ---
 
 I, with my team has achieved an impressive top 70 ranking and earned a Bronze Award 🥉 by applying state-of-the-art machine learning techniques to a challenging task—bird sound classification. The competition aimed to address a critical ecological challenge: understanding bird populations and their habitats through sound analysis. With over 10,000 bird species worldwide, their vocalizations serve as vital indicators of environmental health and quality of life. However, analyzing vast sound datasets manually is labor-intensive and often incomplete.
