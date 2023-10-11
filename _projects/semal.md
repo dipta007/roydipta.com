@@ -18,4 +18,4 @@ Published in: Computers in biology and medicine
 Paper Link: [https://www.sciencedirect.com/science/article/pii/S001048252030353X](https://www.sciencedirect.com/science/article/pii/S001048252030353X)
 GitHub Link: [https://github.com/dipta007/SEMal](https://github.com/dipta007/SEMal)
 
-![SEMal flowchart](../assets/img/project/semal.jpeg)
+![SEMal flowchart](/assets/img/project/semal.jpeg)

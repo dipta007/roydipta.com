@@ -258,6 +258,15 @@ blockquote {
     color: var(--global-text-color);
   }
 
+  .navbar-nav {
+    font-size: 1.25rem !important;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      font-size: 1rem !important;
+    }
+  }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
