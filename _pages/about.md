@@ -28,7 +28,7 @@ Before joining Ph.D., I worked as a Full-Stack Software Engineer in [Sapien.Netw
 
 With over 3 years of experience in developing full-stack software solutions for various startups and companies, I have gained proficiency in multiple languages and frameworks such as Node.js, PHP, MySQL, Apollo GraphQL, Elixir, and more. I have also participated and excelled in several coding competitions, such as the ACM ICPC, where I ranked among the top teams in the region (**[8th out of 300+ teams](https://icpc.global/regionals/finder/dhaka-2019/standings)**). I am highly enthusiastic and passionate about new technologies and innovations, and I am always eager to learn and improve my skills. I aim to leverage my expertise in NLP, CV, ML, and DL to create impactful and intelligent systems that can enhance human capabilities and well-being.
 
-### Research Interest
+## Research Interest
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Multimodal Generation (Language 📖 + Vision 👀)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Natural Language Processing 📖  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Computer Vision 👀  
