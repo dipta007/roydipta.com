@@ -1100,3 +1100,27 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+
+// Awards
+#awards, #certificates {
+  #accordion {
+    .card {
+      background-color: var(--global-card-bg-color) !important;
+      border: 1px solid var(--global-divider-color) !important;
+
+      .card-header {
+        background-color: var(--global-bg-color) !important;
+        border-bottom: 1px solid var(--global-divider-color);
+        padding: 0 !important;
+        margin-bottom: 0;
+
+        button {
+          color: var(--global-theme-color) !important;
+          font-size: 1rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

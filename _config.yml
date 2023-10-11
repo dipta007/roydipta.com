@@ -171,6 +171,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  awards:
+    output: false
+    # permalink: /awards/:path/
+  certificates:
+    output: false
+    # permalink: /awards/:path/
 
 announcements:
   enabled: true
