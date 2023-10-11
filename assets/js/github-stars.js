@@ -75,7 +75,7 @@
 		xmlhttp.open("GET", url.join("/"), useCallback);
 		//set the github media header
 		xmlhttp.setRequestHeader("Accept", "application/vnd.github.v3+json");
-		xmlhttp.setRequestHeader("Authorization", "token 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" );
+		xmlhttp.setRequestHeader("Authorization", "token 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");
 		xmlhttp.send();
 
 		if (!useCallback) {
