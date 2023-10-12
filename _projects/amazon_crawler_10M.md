@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Amazon Crawler (10M+ products)
-description: Bronze Medalist in Cornell Birdcall Identification Challenge
+description: A crawler to scrape 1 million products using NodeJS & puppeteer
 img: assets/img/project/amazon_crawler.jpeg
 importance: 1
 category: data-science
