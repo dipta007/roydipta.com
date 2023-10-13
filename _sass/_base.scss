@@ -185,6 +185,15 @@ blockquote {
   margin-right: 1rem;
 }
 
+.announcement {
+  width: auto;
+  max-width: 100% !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: var(--global-code-bg-announcement);
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -194,6 +203,10 @@ blockquote {
         display: block;
       }
     }
+  }
+
+  .announcement {
+    max-width: 70% !important;
   }
 }
 

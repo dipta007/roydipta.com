@@ -27,11 +27,12 @@ I am a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.cse
 
 Currently, I'm focused on multimodal counterfactual event reasoning, understanding, and generation. My previous work, a hierarchical model for event frame learning, has applications in text summarization, question answering, and counterfactual reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31/)**).
 
+{% include announcement.html %}
+
 I completed my M.Sc. in CS with [Phi Kappa Phi](https://phikappaphi.meritpages.com/stories/Shubhashis-Roy-Dipta-Inducted-into-The-Honor-Society-of-Phi-Kappa-Phi/107714395) (**[CGPA 4.0/4.0](/assets/pdf/masters_transcript.pdf)**)  in Spring 2023 at UMBC. Before my M.Sc., I gained over 3 years of industry experience as a Full-Stack Software Engineer, working with [Dr. Iman Dehzangi](https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/) (Rutgers University) and publishing [4 journal papers](/publications).
 
 I have a strong background in full-stack software development, including Node.js, PHP, MySQL, Apollo GraphQL, Elixir, and more. I've excelled in coding competitions like ACM ICPC, ranking among the top teams in the region (**[8th out of 300+ teams](https://icpc.global/regionals/finder/dhaka-2019/standings)**). I'm passionate about technology and eager to apply my expertise in NLP, CV, ML, and DL to create impactful systems.
 
-{% include announcement.html %}
 
 ## Research Interest
 
