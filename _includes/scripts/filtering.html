@@ -2,19 +2,21 @@
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <script>
-    var $grid = $('.portfolio-grid').isotope({
-        getSortData: {
-            importance: '[importance] parseInt',
-        },
-        itemSelector: '.grid-item',
-        percentPosition: true,
-        masonry: {
-            // use outer width of grid-sizer for columnWidth
-            columnWidth: '.grid-sizer',
-            gutter: '.gutter-sizer',
-            horizontalOrder: true,
-        },
-        filter: '*',
+    var $grid = $('.portfolio-grid').imagesLoaded(function () {
+        $('.portfolio-grid').isotope({
+            getSortData: {
+                importance: '[importance] parseInt',
+            },
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.grid-sizer',
+                gutter: '.gutter-sizer',
+                horizontalOrder: true,
+            },
+            filter: '*',
+        });
     });
 
     $('.filter-button-group').on('click', 'a', function () {
