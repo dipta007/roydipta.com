@@ -3,7 +3,7 @@ title: Collection of Data Structures & Algorithms
 description:
 layout: page
 img: assets/img/project/ds_algo.webp
-importance: 1
+importance: 4
 category: data-structures, algorithms
 giscus_comments: true
 github: https://github.com/dipta007/cookbook-007

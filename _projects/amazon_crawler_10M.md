@@ -3,7 +3,7 @@ layout: page
 title: Amazon Crawler (10M+ products)
 description: A crawler to scrape 1 million products using NodeJS & puppeteer
 img: assets/img/project/amazon_crawler.jpeg
-importance: 1
+importance: 11
 category: data-science
 giscus_comments: true
 github: https://github.com/dipta007/amazon-scrapper-1M-nodejs

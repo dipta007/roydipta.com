@@ -3,7 +3,7 @@ layout: page
 title: Kaggle – Cornell Birdcall Identification (Top 70 – 🥉)
 description: Bronze Medalist 🥉 in Cornell Birdcall Identification Challenge
 img: assets/img/project/kaggle_bird.jpeg
-importance: 5
+importance: 12
 category: Machine-Learning
 giscus_comments: true
 social_share: true

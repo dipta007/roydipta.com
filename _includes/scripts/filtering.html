@@ -2,33 +2,32 @@
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <script>
-    var $grid = $('.portfolio-grid').imagesLoaded(function () {
-        $grid.isotope({
-            getSortData: {
-                importance: '[importance] parseInt',
-            },
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            masonry: {
-                // use outer width of grid-sizer for columnWidth
-                columnWidth: '.grid-sizer',
-                gutter: '.gutter-sizer',
-                horizontalOrder: true,
-            }
-        });
+    var $grid = $('.portfolio-grid').isotope({
+        getSortData: {
+            importance: '[importance] parseInt',
+        },
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+            // use outer width of grid-sizer for columnWidth
+            columnWidth: '.grid-sizer',
+            gutter: '.gutter-sizer',
+            horizontalOrder: true,
+        },
+        filter: '*',
     });
 
     // sort on first time load
     $grid.isotope({
         sortBy: 'importance',
-        ascending: false,
+        sortAscending: false,
     });
     $('.filter-button-group').on('click', 'a', function () {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({
             filter: filterValue,
             sortBy: 'importance',
-            ascending: false,
+            sortAscending: false,
         });
     });
     $('.button-group a.btn').on('click', function () {

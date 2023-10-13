@@ -3,7 +3,7 @@ layout: page
 title: SEMal
 description: Implementation of "SEMal Accurate protein malonylation site predictor using structural and evolutionary information"
 img: assets/img/project/semal.jpeg
-importance: 1
+importance: 5
 category: machine-learning
 giscus_comments: true
 github: https://github.com/dipta007/SEMal

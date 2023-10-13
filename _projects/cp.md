@@ -3,7 +3,7 @@ layout: page
 title: 3000+ Solved Programming Problems
 description:
 img: assets/img/project/cp.png
-importance: 1
+importance: 8
 category: data-structures, algorithms
 giscus_comments: true
 github: https://github.com/dipta007/Competitive-Programming

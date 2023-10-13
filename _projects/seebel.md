@@ -4,7 +4,7 @@ title: SeeBel - <u><b>See</b></u>ing is <u><b>Bel</b></u>ieving
 # hide_title: true
 description:
 img: assets/img/project/seebel1.gif
-importance: 1
+importance: 9
 category: machine-learning, data-science
 giscus_comments: true
 github: https://github.com/dipta007/SeeBel

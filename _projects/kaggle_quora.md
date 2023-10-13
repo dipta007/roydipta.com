@@ -3,7 +3,7 @@ layout: page
 title: Kaggle – Quora Insincere Questions Classification
 description:
 img: assets/img/project/kaggle_quora.jpeg
-importance: 2
+importance: 6
 category: Data-Science, Machine-Learning
 giscus_comments: true
 social_share: true

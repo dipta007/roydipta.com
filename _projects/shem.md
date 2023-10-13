@@ -3,7 +3,7 @@ layout: page
 title: Semantically-informed Hierarchical Event Modeling
 description: Implementation of "SHEM-Semantically-informed Hierarchical Event Modeling"
 img: assets/img/project/shem.png
-importance: 4
+importance: 7
 category: machine-learning
 giscus_comments: true
 github: https://github.com/dipta007/SHEM

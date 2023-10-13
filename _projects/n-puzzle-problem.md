@@ -3,7 +3,7 @@ layout: page
 title: Algorithms Compared - N-Puzzle Problem
 description:
 img: assets/img/project/n_puzzle.png
-importance: 1
+importance: 2
 category: algorithms
 giscus_comments: true
 github: https://github.com/dipta007/N-Puzzle-Problem

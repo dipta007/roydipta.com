@@ -3,7 +3,7 @@ layout: page
 title: Simplify Your Work with Web Scrapers
 description:
 img: assets/img/project/scraper.png
-importance: 1
+importance: 3
 category: data-science
 giscus_comments: true
 social_share: true
