@@ -6,7 +6,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [Machine-Learning, Data-Science]
+display_categories: [Machine-Learning, Data-Science, Data-Structures, Algorithms]
 ---
 
 <!-- pages/projects.md -->
