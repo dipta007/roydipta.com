@@ -4,10 +4,10 @@ title: Huffman Coding Encryption
 description:
 img: assets/img/project/huffman_coding.jpeg
 importance: 1
-category: algorithms
+category: data-structures, algorithms
 giscus_comments: true
 github: https://github.com/dipta007/huffman-coding-encryption
-github_stars: true
+github_stars: false
 social_share: true
 ---
 
