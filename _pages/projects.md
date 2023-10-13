@@ -26,12 +26,12 @@ display_categories: [Machine-Learning, Data-Science, Data-Structures, Algorithms
   {%- endfor %}
 
   <!-- Display categorized projects -->
-  <!-- {%- assign sorted_projects = site.projects | sort: "importance" %} -->
+  {%- assign sorted_projects = site.projects | sort: "importance" | reverse %}
   <!-- Generate cards for each project -->
   <div class="portfolio-grid">
     <div class="grid-sizer {{ categories | replace: ',', '' | downcase }}"></div>
     <div class="gutter-sizer {{ categories | replace: ',', '' | downcase }}"></div>
-    {%- for project in site.projects -%}
+    {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
