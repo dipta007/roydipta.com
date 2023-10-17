@@ -24,13 +24,13 @@ announcement: >
 
 I am a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) at the [University of Maryland, Baltimore County](https://umbc.edu/) (UMBC). My research combines **Natural Language Processing** (NLP) and **Computer Vision** (CV). I have a track record of publishing in top-tier conferences and journals.
 
-Currently, I'm focused on multimodal counterfactual event reasoning, understanding, and generation. My previous work, a hierarchical model for event frame learning, has applications in text summarization, question answering, and counterfactual reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31/)**).
+Currently, I'm focused on multimodal counterfactual event reasoning, understanding, and generation. My previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and counterfactual reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=shubhashisroydipta.com&utm_medium=about-page)**).
 
 {% include announcement.html %}
 
-I completed my M.Sc. in CS with [Phi Kappa Phi](https://phikappaphi.meritpages.com/stories/Shubhashis-Roy-Dipta-Inducted-into-The-Honor-Society-of-Phi-Kappa-Phi/107714395) (**[CGPA 4.0/4.0](/assets/pdf/masters_transcript.pdf)**)  in Spring 2023 at UMBC. Before my M.Sc., I gained over 3 years of industry experience as a Full-Stack Software Engineer, working with [Dr. Iman Dehzangi](https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/) (Rutgers University) and publishing [4 journal papers](/publications).
+I completed my M.Sc. in CS with [Phi Kappa Phi](https://phikappaphi.meritpages.com/stories/Shubhashis-Roy-Dipta-Inducted-into-The-Honor-Society-of-Phi-Kappa-Phi/107714395) (**[CGPA 4.0/4.0](/assets/pdf/masters_transcript.pdf?utm_source=shubhashisroydipta.com&utm_medium=about-page)**)  in Spring 2023 at UMBC. Before my M.Sc., I gained over 3 years of industry experience as a Full-Stack Software Engineer. During that time, I also worked with [Dr. Iman Dehzangi](https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/) (Rutgers University) and published [4 journal papers](/publications).
 
-I have a strong background in full-stack software development, including Node.js, PHP, MySQL, Apollo GraphQL, Elixir, and more. I've excelled in coding competitions like ACM ICPC, ranking among the top teams in the region (**[8th out of 300+ teams](https://icpc.global/regionals/finder/dhaka-2019/standings)**). I'm passionate about technology and eager to apply my expertise in NLP, CV, ML, and DL to create impactful systems.
+I have a strong background in ML programming, including PyTorch, 🤗 HuggingFace, NLTK, Spacy, Matplotlib, Seaborn, Tableau and more. I've excelled in machine learning competitions (**[Kaggle top-70 🥉](/projects/kaggle_bird?utm_source=shubhashisroydipta.com&utm_medium=about-page)**) and coding competitions (**[ACM ICPC 8th out of 300+ teams](https://icpc.global/regionals/finder/dhaka-2019/standings)**). I was the founder of **[UniShopr](https://unishopr.com)**, a cross-border e-commerce for my home country (Bangladesh).
 
 
 ## Research Interest

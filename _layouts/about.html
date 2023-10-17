@@ -43,8 +43,8 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News
-              <div style="font-style: italic; font-size: 1rem; display: inline;">(<a href="/news">See All</a>)</div>
+            <h2><a href="{{ '/news?utm_source=shubhashisroydipta.com&utm_medium=about-page' | relative_url }}" style="color: inherit;">Recent News
+              <div style="font-style: italic; font-size: 1rem; display: inline;">(<a href="/news?utm_source=shubhashisroydipta.com&utm_medium=about-page">See All</a>)</div>
             </a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
@@ -57,8 +57,8 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications
-              <div style="font-style: italic; font-size: 1rem; display: inline;">(<a href="/publications">Show More</a>)</div>
+            <h2><a href="{{ '/publications/?utm_source=shubhashisroydipta.com&utm_medium=about-page' | relative_url }}" style="color: inherit;">Selected Publications
+              <div style="font-style: italic; font-size: 1rem; display: inline;">(<a href="/publications?utm_source=shubhashisroydipta.com&utm_medium=about-page">Show More</a>)</div>
             </a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
