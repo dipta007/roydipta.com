@@ -238,19 +238,6 @@ blockquote {
   color: var(--global-theme-color);
 }
 
-.filter-button-group {
-  a {
-    background-color: color-mix(in srgb, var(--global-theme-color), transparent 30%) !important;
-    // background-color: rgba(var(--global-theme-color), 0.7) !important;
-    font-size: 0.7rem !important;
-
-  }
-  .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
-    background-color: var(--global-theme-color) !important;
-    border-color: var(--global-theme-color) !important;
-  }
-}
-
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
@@ -620,6 +607,25 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .filter-button-group {
+    a {
+      background-color: white !important;
+      font-size: 0.7rem !important;
+      color: var(--global-theme-color) !important;
+      border: 2px solid var(--global-theme-color) !important;
+
+      :hover {
+        background-color: color-mix(in srgb, var(--global-theme-color), transparent 30%) !important;
+        border: 2px solid var(--global-theme-color) !important;
+      }
+    }
+    .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show>.btn-primary.dropdown-toggle {
+      background-color: var(--global-theme-color) !important;
+      border-color: var(--global-theme-color) !important;
+      color: white !important;
+    }
+  }
+
   a {
     text-decoration: none;
 
