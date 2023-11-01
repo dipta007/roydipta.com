@@ -20,3 +20,4 @@ jobs:
           upstream_branch: master
 permissions:
   actions: write
+  contents: write
