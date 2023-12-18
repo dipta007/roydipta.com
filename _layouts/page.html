@@ -18,7 +18,16 @@ layout: default
             <i class="fab fa-github"></i>
           </a>
         {% endif %}
-
+        {% if page.pdf %}
+          <a href="{{ page.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {% endif %}
+        {%- if page.pdf_url -%}
+          <a href="{{ page.pdf_url }}" target="_blank" rel="noopener noreferrer" class="float-right">
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {%- endif -%}
         {% if page.code_repo %}
           <a href="{{ page.code_repo }}" target="_blank" rel="noopener noreferrer" class="float-right">
             <i class="fa fa-code"></i>

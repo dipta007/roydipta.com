@@ -19,18 +19,37 @@
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                <div class="github-icon">
+                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                    <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+                  </div>
+                  {%- if project.github_stars -%}
+                  <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                    <i class="fas fa-star"></i>
+                    <span id="{{ project.github_stars }}-stars"></span>
+                  </span>
+                  {%- endif -%}
                 </div>
-                {%- if project.github_stars -%}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {%- endif -%}
-              </div>
               {%- endif -%}
+              {%- if project.pdf or project.pdf_url -%}
+                <div class="github-icon" style="padding-left: 0.4em;">
+                  <div class="icon" data-toggle="tooltip" title="Read it!">
+                    {%- if project.pdf_url -%}
+                      <a href="{{ project.pdf_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                    {%- else -%}
+                      <a href="{{ project.pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                    {%- endif -%}
+                  </div>
+                </div>
+              {%- endif -%}
+
+              {% if project.code_repo %}
+              <div class="github-icon" style="padding-left: 0.4em;">
+                <div class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ project.code_repo }}" target="_blank"><i class="fa fa-code"></i></a>
+                </div>
+              </div>
+            {% endif %}
             </div>
           </div>
         </div>
