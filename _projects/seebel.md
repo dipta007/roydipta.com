@@ -9,7 +9,7 @@ category: machine-learning, data-science
 giscus_comments: true
 github: https://github.com/dipta007/SeeBel
 social_share: true
-# pdf: resume.pdf
+pdf_url: https://arxiv.org/abs/2312.10933
 ---
 
 
