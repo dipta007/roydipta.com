@@ -17,3 +17,7 @@
 "IEEE Access":
   url: https://www.ieee.org/
   color: "#0B6EA7"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"
