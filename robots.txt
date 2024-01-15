@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ShubhashisRoyDipta.com/sitemap.xml
+Sitemap: https://roydipta.com/sitemap.xml
