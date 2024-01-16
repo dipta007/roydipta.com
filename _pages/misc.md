@@ -5,7 +5,7 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: Notes 🧠
+    - title: Notes 📝
       permalink: https://notes.roydipta.com/
     - title: divider
     - title: Awards 🏆
