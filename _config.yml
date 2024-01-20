@@ -139,8 +139,8 @@ related_blog_posts:
 giscus:
   repo: dipta007/giscus-srd                         # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOLHLfzw
-  category: Q&A             # name of the category under which discussions will be created
-  category_id: R_kgDOLHLfzw
+  category: roydipta.com             # name of the category under which discussions will be created
+  category_id: DIC_kwDOLHLfz84Ccjdz
   mapping: url                 # identify discussions by post title
   strict: 0                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -158,7 +158,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@dipta007
 
 # -----------------------------------------------------------------------------
 # Collections
