@@ -138,6 +138,7 @@ related_blog_posts:
 # the information below.
 giscus:
   repo: dipta007/giscus-srd                         # <your-github-user-name>/<your-github-repo-name>
+  comment_repo: dipta007/giscus-srd                         # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOLHLfzw
   category: roydipta.com             # name of the category under which discussions will be created
   category_id: DIC_kwDOLHLfz84Ccjdz
