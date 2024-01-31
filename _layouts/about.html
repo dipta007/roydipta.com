@@ -48,23 +48,26 @@ layout: default
 
     <!-- News Letter -->
     {% if page.blog_newsletter -%}
-    <!-- <div class="blog-newsletter">
-      <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.1/umd/signup-form.min.js"
-        data-background-color="#ffffff" data-text-color="#000000" data-button-color="#000000"
-        data-button-text-color="#FFFFFF" data-title="A blog on Machine Learning, NLP, Vision, Multimodal AI"
-        data-description="Subscribe to get notified when I post new content." data-site="https://blog.roydipta.com/"
-        async></script>
-    </div> -->
     <div class="blog-newsletter-minimal">
       <div class="card">
         <h2>I&nbsp;
-          <a href="https://blog.roydipta.com/?utm_source=roydipta.com&utm_medium=newsletter"
-            target="_blank">WRITE ✍️</a>&nbsp;
+          <a href="https://blog.roydipta.com/?utm_source=roydipta.com&utm_medium=newsletter" target="_blank">WRITE
+            ✍️</a>&nbsp;
           on Machine Learning, NLP, Vision, Multimodal AI
         </h2>
         <h5>Subscribe to get notified when I post a new content.</h5>
-        <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.1/umd/signup-form.min.js" data-button-color="#000000"
-          data-button-text-color="#FFFFFF" data-site="https://blog.roydipta.com/" async></script>
+
+        <div class="hero__subscribe">
+          <form class="subscribe-form validate"
+            action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}" method="POST"
+            id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
+              placeholder="Subscribe Here">
+            <button class="button button--primary subscribe-button" id="membedded-subscribe" type="submit"
+              name="subscribe">Send Me New Posts</button>
+          </form>
+        </div>
+
       </div>
     </div>
     {%- endif %}

@@ -354,6 +354,15 @@ imagemagick:
   output_formats:
     webp: "-resize 800x"
 
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: true
+  identifier: roydipta.us21.list-manage.com/subscribe/post?u=d959ff3473bc4ddf834bf8fbe&amp;id=ccd3f0e7a2&amp;f_id=00e9f3e6f0
+  input__text: Subscribe here
+  button__text: Send Me New posts
+
+
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
