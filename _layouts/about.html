@@ -59,12 +59,10 @@ layout: default
 
         <div class="hero__subscribe">
           <form class="subscribe-form validate"
-            action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}" method="POST"
-            id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-            <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-              placeholder="Subscribe Here">
-            <button class="button button--primary subscribe-button" id="membedded-subscribe" type="submit"
-              name="subscribe">Send Me New Posts</button>
+            action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}"
+            method="POST" target="_blank" novalidate>
+            <input class="subscribe-email required email" type="text" name="EMAIL" placeholder="Subscribe Here">
+            <button class="subscribe-button" type="submit" name="subscribe">Send Me New Posts</button>
           </form>
         </div>
 
