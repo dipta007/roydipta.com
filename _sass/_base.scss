@@ -531,7 +531,7 @@ footer.sticky-bottom {
 
   .subscribe-form {
     position: relative;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     background-color: var(--background-color);
   }
 
@@ -542,7 +542,7 @@ footer.sticky-bottom {
     font-size: 16px;
     line-height: 21px;
     border: 2px solid transparent;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     outline: 0;
     color: var(--heading-font-color);
     background-color: transparent;
@@ -570,7 +570,7 @@ footer.sticky-bottom {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    border-radius: 0.5rem;
+    border-radius: 2px;
     border: none;
     outline: none;
     cursor: pointer;
