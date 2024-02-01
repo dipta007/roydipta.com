@@ -59,6 +59,7 @@ max_width: 1000px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
+# see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: /assets/img/social_preview.png # The site-wide (default for all links) Open Graph preview image
@@ -110,6 +111,8 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: G-YM80KFF174  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
@@ -120,9 +123,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: dipta007 # blog_name will be displayed in your blog page
+blog_name: Shubhashis Roy Dipta Blog # blog_name will be displayed in your blog page
 blog_nav_title: null # your blog must have a title for it to be displayed in the nav bar
-blog_description: Code with dipta007
+blog_description: Learn with Shubhashis
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -138,7 +141,6 @@ related_blog_posts:
 # the information below.
 giscus:
   repo: dipta007/giscus-srd                         # <your-github-user-name>/<your-github-repo-name>
-  comment_repo: dipta007/giscus-srd                         # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOLHLfzw
   category: roydipta.com             # name of the category under which discussions will be created
   category_id: DIC_kwDOLHLfz84Ccjdz
@@ -338,6 +340,8 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
+# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+#   convert -version
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
@@ -351,8 +355,9 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
+    - ".gif"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-quality 85"
 
 #-------------------------------
 # Newsletter

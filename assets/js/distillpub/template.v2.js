@@ -1683,7 +1683,6 @@ d-appendix > distill-appendix {
   (function(exports) {
 
       function BibtexParser() {
-
           this.months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
           this.notKey = [',','{','}',' ','='];
           this.pos = 0;
@@ -1819,7 +1818,6 @@ d-appendix > distill-appendix {
                       return k.toLowerCase();
                   else
                       throw "Value expected:" + this.input.substring(start) + ' for key: ' + k;
-
               }        };
 
           this.value = function() {
@@ -1842,7 +1840,6 @@ d-appendix > distill-appendix {
                       return this.input.substring(start, this.pos);
                   } else {
                       this.pos++;
-
                   }            }        };
 
           this.key_equals_value = function() {
@@ -1947,7 +1944,6 @@ d-appendix > distill-appendix {
               out += '}\n\n';
           }
           return out;
-
       };
 
   })( exports);
