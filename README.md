@@ -83,3 +83,4 @@
 | `bibtex_show` | Whether to show the bibtex button or not | `true` or `false` |
 | `blog` | The link to the blog post | `string` |
 | `poster` | The link to the poster | `string` |
+| `video` | The link to the slides | `string` |
