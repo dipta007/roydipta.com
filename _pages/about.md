@@ -19,7 +19,9 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 announcement: >
-  Actively looking for <b>Summer Internship</b> in Data Science, Natural Language Processing, Computer Vision and/or Machine Learning. Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you have any opportunity.
+  Actively looking for <b>Research Collaboration</b> in Natural Language Processing or Multimodal (Language + Vision) Work. <b> I am greatly enthusiastic about participating in shared tasks.</b> Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you want to collaborate.
+# announcement: >
+#   Actively looking for <b>Summer Internship</b> in Data Science, Natural Language Processing, Computer Vision and/or Machine Learning. Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you have any opportunity.
 
 blog_newsletter: true # includes a form to subscribe to the blog's newsletter
 ---
