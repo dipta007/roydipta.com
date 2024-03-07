@@ -1,0 +1,9 @@
+{%- assign services = site.services | reverse -%}
+{% for item in services %}
+<h5 class="pb-1">
+    {% if item.icon %}
+    {% endif %}
+    <i class="{{item.icon}}" aria-hidden="true"></i>
+    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+</h5>
+{%- endfor %}

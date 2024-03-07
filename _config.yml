@@ -182,6 +182,10 @@ collections:
   certificates:
     output: false
     # permalink: /awards/:path/
+  services:
+    output: false
+  affiliations:
+    output: true
 
 announcements:
   enabled: true

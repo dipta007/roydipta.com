@@ -30,72 +30,17 @@
     <hr class="seperator">
 
     <div class="container info-1">
-        <h3>Affiliations</h3>
-        <div class="container">
-            <h5>University of Maryland, Baltimore County</h5>
-            <div class="space-between">
-                <h6>Ph.D. in Computer Science</h6>
-                <h6>Spring 2021 - Present</h6>
-            </div>
-            <h6>Advisor: <a href="https://redirect.cs.umbc.edu/~ferraro/" target="_blank">Dr. Frank Ferraro</a></h6>
-        </div>
-
-        <div class="container">
-            <h5>University of Maryland, Baltimore County</h5>
-            <div class="space-between">
-                <h6>M.S. in Computer Science</h6>
-                <h6>Spring 2021 - Spring 2023</h6>
-            </div>
-            <h6>Advisor: <a href="https://redirect.cs.umbc.edu/~ferraro/" target="_blank">Dr. Frank Ferraro</a></h6>
-        </div>
-
-        <div class="container">
-            <h5>Military Institute of Science & Technology</h5>
-            <div class="space-between">
-                <h6>B.Sc. in Computer Science</h6>
-                <h6>Spring 2013 - Fall 2017</h6>
-            </div>
-        </div>
+        <h3 class="mb-3">Affiliations</h3>
+        {% include affiliations.html %}
     </div>
 
     <hr class="seperator">
 
     <!-- Services -->
     <div class="container info-1">
-        <h3>Professional Services</h3>
+        <h3 class="mb-3">Professional Services</h3>
         <div class="container">
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Reviewer of <a href="https://www.nature.com/srep/" target="_blank">Scientific Reports, Nature</a> (Jan 2024)
-            </h5>
-
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Reviewer of <a href="https://plantmethods.biomedcentral.com/" target="_blank">Plant Methods</a> (Jan 2024)
-            </h5>
-
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Reviewer of <a href="https://noisy-text.github.io/2024/" target="_blank">W-NUT</a> workshop at <a
-                    href="https://2024.eacl.org/" target="_blank">EACL 2024</a>
-            </h5>
-
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Reviewer of <a href="https://plantmethods.biomedcentral.com/" target="_blank">Plant Methods</a> (Dec 2023)
-            </h5>
-
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Reviewer of <a
-                    href="https://www.sciencedirect.com/journal/computational-and-structural-biotechnology-journal"
-                    target="_blank">Computational and Structural Biotechnology Journal</a> (Mar 2023)
-            </h5>
-
-            <h5 class="pb-1">
-                <i class="fa fa-pen-nib" aria-hidden="true"></i>
-                Secondary Reviewer of <a href="https://sites.google.com/view/starsem2023" target="_blank">*SEM 2023</a>
-            </h5>
+            {% include service.html %}
         </div>
     </div>
 
