@@ -16,100 +16,83 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-      {% if page.profile.image_circular %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-      {% endif %}
-
-      {% include figure.html
-      path=profile_image_path
-      class=profile_image_class
-      alt=page.profile.image
-      cache_bust=true -%}
-      {% endif -%}
-      {%- if page.profile.more_info %}
-      <div class="more-info">
-        {{ page.profile.more_info }}
-      </div>
-      {%- endif %}
+  <div class="row">
+    <div class="col-md-4">
+      {% include info.html %}
     </div>
-    {%- endif %}
-
-    <div class="clearfix" style="text-align: justify;">
-      {{ content }}
-    </div>
-
-    <!-- News Letter -->
-    {% if page.blog_newsletter -%}
-    <div class="blog-newsletter-minimal">
-      <div class="card">
-        <h2>I&nbsp;
-          <a href="https://blog.roydipta.com/?utm_source=roydipta.com&utm_medium=newsletter" target="_blank">WRITE
-            ✍️</a>&nbsp;
-          on Machine Learning, NLP, Vision, Multimodal AI
-        </h2>
-        <h5>Subscribe to get notified when I post a new content.</h5>
-
-        <div class="hero__subscribe">
-          <form class="subscribe-form validate"
-            action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}"
-            method="POST" target="_blank" novalidate>
-            <input class="subscribe-email required email" type="text" name="EMAIL" placeholder="Subscribe Here">
-            <button class="subscribe-button" type="submit" name="subscribe">Send Me New Posts</button>
-          </form>
+    <div class="col-md-8">
+      <article>
+        
+  
+        <div class="clearfix content">
+          {{ content }}
         </div>
 
-      </div>
+        <!-- News -->
+        {% if page.news and site.announcements.enabled -%}
+        <h2><a href="{{ '/news?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
+            style="color: inherit;">Recent News
+            <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
+                href="/news?utm_source=roydipta.com&utm_medium=about-page">See All</a>)</div>
+          </a></h2>
+        {%- include news.html limit=true %}
+        {%- endif %}
+  
+        <!-- News Letter -->
+        {% if page.blog_newsletter -%}
+        <div class="blog-newsletter-minimal">
+          <div class="card">
+            <h2>I&nbsp;
+              <a href="https://blog.roydipta.com/?utm_source=roydipta.com&utm_medium=newsletter" target="_blank">WRITE
+                ✍️</a>&nbsp;
+              on Machine Learning, NLP, Vision, Multimodal AI
+            </h2>
+            <h5>Subscribe to get notified when I post a new content.</h5>
+  
+            <div class="hero__subscribe">
+              <form class="subscribe-form validate"
+                action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}"
+                method="POST" target="_blank" novalidate>
+                <input class="subscribe-email required email" type="text" name="EMAIL" placeholder="Subscribe Here">
+                <button class="subscribe-button" type="submit" name="subscribe">Send Me New Posts</button>
+              </form>
+            </div>
+  
+          </div>
+        </div>
+        {%- endif %}
+  
+        <!-- Latest posts -->
+        <!-- {% if page.latest_posts -%}
+              <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+              {%- include latest_posts.html %}
+            {%- endif %} -->
+  
+        <!-- Featured papers -->
+        {% if page.selected_papers -%}
+        <h2><a href="{{ '/publications/?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
+            style="color: inherit;">Featured Publications
+            <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
+                href="/publications?utm_source=roydipta.com&utm_medium=about-page">Show More</a>)</div>
+          </a></h2>
+        {%- include selected_papers.html %}
+        {%- endif %}
+  
+  
+        <!-- Social -->
+        {%- if page.social %}
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.html %}
+          </div>
+  
+          <div class="contact-note">
+            {{ site.contact_note }}
+          </div>
+  
+        </div>
+        {%- endif %}
+      </article>
     </div>
-    {%- endif %}
-
-    <!-- News -->
-    {% if page.news and site.announcements.enabled -%}
-    <h2><a href="{{ '/news?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
-        style="color: inherit;">Recent News
-        <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
-            href="/news?utm_source=roydipta.com&utm_medium=about-page">See All</a>)</div>
-      </a></h2>
-    {%- include news.html limit=true %}
-    {%- endif %}
-
-    <!-- Latest posts -->
-    <!-- {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %} -->
-
-    <!-- Featured papers -->
-    {% if page.selected_papers -%}
-    <h2><a href="{{ '/publications/?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
-        style="color: inherit;">Featured Publications
-        <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
-            href="/publications?utm_source=roydipta.com&utm_medium=about-page">Show More</a>)</div>
-      </a></h2>
-    {%- include selected_papers.html %}
-    {%- endif %}
-
-
-    <!-- Social -->
-    {%- if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-
-      <div class="contact-note">
-        {{ site.contact_note }}
-      </div>
-
-    </div>
-    {%- endif %}
-  </article>
-
+  </div>
 </div>

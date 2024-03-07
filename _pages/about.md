@@ -1,18 +1,18 @@
 ---
 layout: about
+width: 1500px
 title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> ⎟ <b>NLP</b> ⎟ <b>CV</b> ⎟ <b>Multimodal Gen AI</b> ⎟ <b>Data Science</b>
+  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Generation</b> ⎟ <b>NLP</b>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
   more_info: >
-    <p><span class="emph">sroydip1</span>@<span class="emph">umbc</span>.<span class="emph">edu</span></p>
-    <p>Baltimore, Maryland-21227</p>
+    <h4 class="mb-0">Shubhashis Roy Dipta</h4>
+    <p class="mb-1"><span class="emph">sroydip1</span>@<span class="emph">umbc</span>.<span class="emph">edu</span></p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts

@@ -1,0 +1,124 @@
+<div class="card info">
+    <div class="profile">
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {%- assign profile_image_class = "img-fluid z-depth-1" -%}
+
+        {% include figure.html
+        path=profile_image_path
+        class=profile_image_class
+        alt=page.profile.image
+        cache_bust=true -%}
+        {% endif -%}
+    </div>
+
+    {%- if page.profile.more_info %}
+    <div class="more-info">
+        {{ page.profile.more_info }}
+    </div>
+    {%- endif %}
+
+    <div class="container" style="text-align: center;">
+        <a class="btn-badge" href="{{ 'resume.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
+            rel="noopener noreferrer">Resume</a>
+        <a class="btn-badge" href="{{ 'cv.jpeg' | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
+            rel="noopener noreferrer">CV</a>
+        <a class="btn-badge" href="https://scholar.google.com/citations?user=j2ElsNIAAAAJ&hl=en" target="_blank"
+            rel="noopener noreferrer">Google Scholar</a>
+    </div>
+
+    <hr class="seperator">
+
+    <div class="container info-1">
+        <h3>Affiliations</h3>
+        <div class="container">
+            <h5>University of Maryland, Baltimore County</h5>
+            <div class="space-between">
+                <h6>Ph.D. in Computer Science</h6>
+                <h6>Spring 2021 - Present</h6>
+            </div>
+            <h6>Advisor: <a href="https://redirect.cs.umbc.edu/~ferraro/" target="_blank">Dr. Frank Ferraro</a></h6>
+        </div>
+
+        <div class="container">
+            <h5>University of Maryland, Baltimore County</h5>
+            <div class="space-between">
+                <h6>M.S. in Computer Science</h6>
+                <h6>Spring 2021 - Spring 2023</h6>
+            </div>
+            <h6>Advisor: <a href="https://redirect.cs.umbc.edu/~ferraro/" target="_blank">Dr. Frank Ferraro</a></h6>
+        </div>
+
+        <div class="container">
+            <h5>Military Institute of Science & Technology</h5>
+            <div class="space-between">
+                <h6>B.Sc. in Computer Science</h6>
+                <h6>Spring 2013 - Fall 2017</h6>
+            </div>
+        </div>
+    </div>
+
+    <hr class="seperator">
+
+    <!-- Services -->
+    <div class="container info-1">
+        <h3>Professional Services</h3>
+        <div class="container">
+            <h5 class="pb-1">
+                <i class="fa fa-pen-nib" aria-hidden="true"></i>
+                Reviewer of <a href="https://www.nature.com/srep/" target="_blank">Scientific Reports, Nature</a> (Jan 2024)
+            </h5>
+
+            <h5 class="pb-1">
+                <i class="fa fa-pen-nib" aria-hidden="true"></i>
+                Reviewer of <a href="https://noisy-text.github.io/2024/" target="_blank">W-NUT</a> workshop at <a
+                    href="https://2024.eacl.org/" target="_blank">EACL 2024</a>
+            </h5>
+
+            <h5 class="pb-1">
+                <i class="fa fa-pen-nib" aria-hidden="true"></i>
+                Reviewer of <a href="https://plantmethods.biomedcentral.com/" target="_blank">Plant Methods</a> (Dec 2023)
+            </h5>
+
+            <h5 class="pb-1">
+                <i class="fa fa-pen-nib" aria-hidden="true"></i>
+                Reviewer of <a
+                    href="https://www.sciencedirect.com/journal/computational-and-structural-biotechnology-journal"
+                    target="_blank">Computational and Structural Biotechnology Journal</a> (Mar 2023)
+            </h5>
+
+            <h5 class="pb-1">
+                <i class="fa fa-pen-nib" aria-hidden="true"></i>
+                Secondary Reviewer of <a href="https://sites.google.com/view/starsem2023" target="_blank">*SEM 2023</a>
+            </h5>
+        </div>
+    </div>
+
+    <!-- <hr class="seperator"> -->
+
+    <!-- Subscription -->
+    <!-- <div class="container">
+        <div class="hero__subscribe">
+            <form class="subscribe-form validate"
+                action="{% if site.mailchimp.identifier %}//{{site.mailchimp.identifier}}{% else %}#{% endif %}"
+                method="POST" target="_blank" novalidate>
+                <input class="subscribe-email required email" type="text" name="EMAIL" placeholder="Subscribe to get new posts">
+                <button class="subscribe-button" type="submit" name="subscribe">Subscribe</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Recent News -->
+    <!-- <div class="container info-1">
+        {% if page.news and site.announcements.enabled -%}
+        <h3><a href="{{ '/news?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
+                style="color: inherit;">Recent News
+                <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
+                        href="/news?utm_source=roydipta.com&utm_medium=about-page">See All</a>)</div>
+            </a></h3>
+        <div class="container">
+            {%- include news.html limit=true %}
+        </div>
+        {%- endif %}
+    </div> -->
+</div>

@@ -19,7 +19,7 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5">
+    <div class="container mt-5" {% if page.width %}style="max-width: {{page.width}}"{% endif %}>
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
         <div class="row">
