@@ -67,7 +67,7 @@ layout: default
               <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
               {%- include latest_posts.html %}
             {%- endif %} -->
-  
+
         <!-- Featured papers -->
         {% if page.selected_papers -%}
         <h2><a href="{{ '/publications/?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
@@ -77,22 +77,23 @@ layout: default
           </a></h2>
         {%- include selected_papers.html %}
         {%- endif %}
-  
-  
-        <!-- Social -->
-        {%- if page.social %}
-        <div class="social">
-          <div class="contact-icons">
-            {% include social.html %}
-          </div>
-  
-          <div class="contact-note">
-            {{ site.contact_note }}
-          </div>
-  
-        </div>
-        {%- endif %}
       </article>
+    </div>
+
+    <div class="col-md-12">
+      <!-- Social -->
+      {%- if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+  
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+  
+      </div>
+      {%- endif %}
     </div>
   </div>
 </div>
