@@ -28,7 +28,7 @@ blog_newsletter: true # includes a form to subscribe to the blog's newsletter
 
 I am a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) at the [University of Maryland, Baltimore County](https://umbc.edu/) (UMBC). My research combines **Natural Language Processing** (NLP) and **Computer Vision** (CV).
 
-My primary research focuses on multimodal event reasoning, understanding, and generation. My previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and counterfactual reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
+My primary research focuses on multimodal <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span> reasoning, understanding, and generation. My previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
 
 {% include announcement.html %}
 
