@@ -21,3 +21,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#B31B1B"
+
+"NAACL":
+  url: https://naacl.org/
+  color: "#428bca"
