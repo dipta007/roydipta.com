@@ -23,7 +23,8 @@ announcement: >
 # announcement: >
 #   Actively looking for <b>Summer Internship</b> in Data Science, Natural Language Processing, Computer Vision and/or Machine Learning. Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you have any opportunity.
 
-blog_newsletter: true # includes a form to subscribe to the blog's newsletter
+blog_newsletter: false # includes a form to subscribe to the blog's newsletter
+notes_newsletter: true # includes a form to subscribe to the notes' newsletter
 ---
 
 I am a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) at the [University of Maryland, Baltimore County](https://umbc.edu/) (UMBC). My research combines **Natural Language Processing** (NLP) and **Computer Vision** (CV).
