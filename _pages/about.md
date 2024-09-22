@@ -44,7 +44,7 @@ I have a strong background in ML programming, including PyTorch, 🤗 HuggingFac
 
 ## Research Interest
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ (Outcome & Intentional Based) Video-Text Retrieval  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ (Outcome & Intention Based) Video-Text Retrieval  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Video/Image + Text to Text Generation  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Natural Language Understanding 📖  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Computer Vision 👀
