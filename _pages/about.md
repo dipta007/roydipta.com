@@ -5,7 +5,7 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Generation</b> ⎟ <b>NLP</b>
+  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Generation, Retrieval</b> ⎟ <b>NLP</b>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 announcement: >
-  Actively looking for <b>Research Collaboration</b> in Natural Language Processing or Multimodal (Language + Vision) Work. <b> I am greatly enthusiastic about participating in shared tasks.</b> Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you want to collaborate.
+  Actively looking for <b>Research Collaboration</b> in Natural Language Processing or Multimodal (Language + Vision) Work. Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you want to collaborate.
 # announcement: >
 #   Actively looking for <b>Summer Internship</b> in Data Science, Natural Language Processing, Computer Vision and/or Machine Learning. Please <a href="mailto:sroydip1@umbc.edu" target="_blank">contact me</a> if you have any opportunity.
 
@@ -29,7 +29,11 @@ notes_newsletter: true # includes a form to subscribe to the notes' newsletter
 
 I am a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) at the [University of Maryland, Baltimore County](https://umbc.edu/) (UMBC). My research combines **Natural Language Processing** (NLP) and **Computer Vision** (CV).
 
-My primary research focuses on multimodal <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span> reasoning, understanding, and generation. My previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
+My current research focuses on outcome and intention based video-text retrieval. This research has applications in video-text retrieval, especially where there is no text available for the video (e.g., most of the social media videos).
+
+I am also interested about multimodal <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span> reasoning, understanding, and generation. My previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
+
+In **Summer 2024**, I interned at [Scale.AI](https://scale.com) as a Machine Learning Research Intern. I explored how <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Reinforcement learning from human feedback">RLHF</span> can improve the text2SQL generation (currently under review). I also worked on Many-Shot text2SQL and improving text2SQL AutoEval using <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Small Language Model">SLM</span>. I was mentored by [Vijay Kalmath](https://www.linkedin.com/in/vijay-kalmath/) and managed by [Dr. Adrian Lam](https://www.linkedin.com/in/ayplam/).
 
 {% include announcement.html %}
 
@@ -40,6 +44,7 @@ I have a strong background in ML programming, including PyTorch, 🤗 HuggingFac
 
 ## Research Interest
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Multimodal Generation (Language 📖 + Vision 👀)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ (Outcome & Intentional Based) Video-Text Retrieval  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Video/Image + Text to Text Generation  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Natural Language Understanding 📖  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Computer Vision 👀
