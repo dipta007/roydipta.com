@@ -5,7 +5,7 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Generation, Retrieval</b> ⎟ <b>NLP</b>
+  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Retrieval, Generation</b> ⎟ <b>NLP</b>
 
 profile:
   align: right
