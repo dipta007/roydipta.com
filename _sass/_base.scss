@@ -14,8 +14,24 @@ em,
 div,
 li,
 span,
-strong {
+strong,
+b {
   color: var(--global-text-color);
+  font-family: "Lora", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h5,
+h6,
+p,
+li,
+div,
+span {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+b, strong {
+  font-weight: 650;
 }
 
 hr {
