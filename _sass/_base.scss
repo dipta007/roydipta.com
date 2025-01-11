@@ -246,6 +246,12 @@ blockquote {
   }
 }
 
+.nav-link {
+  @media (min-width: 1000px) {
+    padding-left: 2rem !important;
+  }
+}
+
 .navbar.navbar-light {
   a {
     &:hover {
@@ -1377,4 +1383,44 @@ nav[data-toggle="toc"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+// Photos
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #dbdbdb;
+  margin: 15px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.photo-banner-caption {
+  font-size: 1.1rem;
+  color: #262626;
+}
+
+.instagram-link {
+  font-size: 0.9rem;
+  color: #262626;
+}
+
+.instagram-handle {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.instagram-handle:hover {
+  opacity: 0.8;
 }

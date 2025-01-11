@@ -3,7 +3,7 @@ layout: page
 permalink: /research-helpers/
 title: Research-Helpers
 description:
-nav: true
+nav: false
 hide_title: true
 nav_order: 0
 ---

@@ -8,9 +8,10 @@ hide_title: true
 nav_order: 2
 ---
 
-<h1 class="banner-title">Debug The Light</h1>
-<div class="decorative-line"></div>
-<p>Where every shot is a successful debug towards the perfect photo.</p>
+<h1>Debug The Light</h1>
+<p class="photo-banner-caption">Where every shot is a successful debug towards the perfect photo.</p>
+<!-- <hr> -->
+<p class="instagram-link">Follow my photography journey: <a href="https://instagram.com/debug.the.light" class="instagram-handle">@debug.the.light</a></p>
 <hr style="border:1px solid black;">
 
 <!-- horizontal line -->
