@@ -3,7 +3,7 @@ layout: page
 permalink: /photos/
 title: Photos
 description:
-nav: true
+nav: false
 hide_title: true
 nav_order: 2
 ---
