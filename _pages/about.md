@@ -5,7 +5,7 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> ⎟ <b>Multimodal (Text + Vision) Retrieval, Generation</b> ⎟ <b>NLP</b>
+  <b>PhD Researcher</b> ⎟ <b>Decomposition-based Reasoning</b> ⎟ <b>Multimodal, NLP</b>
 
 profile:
   align: right
@@ -29,9 +29,11 @@ notes_newsletter: true # includes a form to subscribe to the notes' newsletter
 
 Shubhashis is a Computer Science PhD Researcher under [Dr. Frank Ferarro](https://www.csee.umbc.edu/people/faculty/frank-ferraro/) at the University of Maryland, Baltimore County (UMBC). His research combines **Natural Language Processing** (NLP) and **Computer Vision** (CV).
 
-His current research focuses on outcome and intention based video-text retrieval. This research has applications in video/image retrieval system, especially where there is no text available for the video (e.g., most of the videos on the internet, social media, and surveillance videos).
+His current research focuses on outcome and intention based decomposition and how it can be used for video-text retrieval. This research has applications in video/image retrieval system, especially where there is no text available for the video (e.g., most of the videos on the internet, social media, and surveillance videos).
 
-He is also interested about multimodal <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span> reasoning, understanding, and generation. His previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
+He is also interested about multimodal 
+<!-- <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span>  -->
+reasoning, understanding, and generation. His previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
 
 In **Summer 2024**, he interned at [Scale.AI](https://scale.com) as a Machine Learning Researcher. He explored how <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Reinforcement learning from human feedback">RLHF</span> can improve the text2SQL generation (currently under ARR review). He also worked on Many-Shot text2SQL and text2SQL AutoEval using <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Small Language Model">SLM</span>. He was mentored by [Vijay Kalmath](https://www.linkedin.com/in/vijay-kalmath/) and managed by [Dr. Adrian Lam](https://www.linkedin.com/in/ayplam/).
 
