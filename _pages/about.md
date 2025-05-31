@@ -35,6 +35,8 @@ He is also interested about multimodal
 <!-- <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Event Modeling is a method of describing systems using an example of how information has changed within them over time.">event</span>  -->
 reasoning, understanding, and generation. His previous work, a hierarchical variational autoencoder for event representation learning, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
 
+In **Summer 2025**, he is interning at [Amazon Science](https://www.amazon.science/) as a Applied Scientist. He is researching on optimization of Alexa conversation latency, cost and performance.
+
 In **Summer 2024**, he interned at [Scale.AI](https://scale.com) as a Machine Learning Researcher. He explored how <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Reinforcement learning from human feedback">RLHF</span> can improve the text2SQL generation (currently under ARR review). He also worked on Many-Shot text2SQL and text2SQL AutoEval using <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Small Language Model">SLM</span>. He was mentored by [Vijay Kalmath](https://www.linkedin.com/in/vijay-kalmath/) and managed by [Dr. Adrian Lam](https://www.linkedin.com/in/ayplam/).
 
 {% include announcement.html %}
