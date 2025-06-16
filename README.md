@@ -84,3 +84,5 @@
 | `blog` | The link to the blog post | `string` |
 | `poster` | The link to the poster | `string` |
 | `video` | The link to the slides | `string` |
+| `dimensions` | Whether to show the dimensions button or not | `true` or `false` |
+| `selected` | Whether to show the paper in the selected papers section | `true` or `false` |
