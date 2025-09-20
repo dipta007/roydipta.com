@@ -5,7 +5,7 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: >
-  <b>PhD Researcher</b> ⎟ <b>Decomposition-based Reasoning</b> ⎟ <b>Multimodal, NLP</b>
+  <b>PhD Researcher</b> ⎟ <b>Reasoning</b> ⎟ <b>Multimodal, NLP</b>
 
 profile:
   align: right
@@ -35,7 +35,7 @@ His broad research focuses on **Decomposition-based Reasoning** using text or vi
 
 Over the years, he has worked on **Outcome and Intention based Decomposition** and how it can be used for video-text retrieval. This research has applications in video/image retrieval system, especially where there is no text metadata available for the video (e.g., most of the videos on the internet, social media, and surveillance videos). Also, his previous work, a hierarchical variational autoencoder for **Event Representation Learning**, has applications in text summarization, question answering, and <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="What would happen if some facts are changed?">counterfactual</span> reasoning (Published in **[*SEM 2023, ACL](https://aclanthology.org/2023.starsem-1.31?utm_source=roydipta.com&utm_medium=about-page)**).
 
-In **Summer 2025**, he is interning at [Amazon Science](https://www.amazon.science/) as a Applied Scientist. He is researching on optimization of Alexa conversation latency, cost and performance. He was mentored by [Dr. Daniel Bis](https://www.linkedin.com/in/daniel-bis-cs/) and managed by [Dr. Lichao Wang](https://www.linkedin.com/in/lichao-wang-imperialcollege/).
+In **Summer 2025**, he interned at [Amazon Science](https://www.amazon.science/) as a Applied Scientist. He has shown how [Deliberative Alignment](https://arxiv.org/abs/2412.16339) can be used to optimize cost by ruducing token of the tool-calling LLMs (**paper coming soon**). He was mentored by [Dr. Daniel Bis](https://www.linkedin.com/in/daniel-bis-cs/) and managed by [Dr. Lichao Wang](https://www.linkedin.com/in/lichao-wang-imperialcollege/).
 
 In **Summer 2024**, he interned at [Scale.AI](https://scale.com) as a Machine Learning Researcher. He explored how <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Reinforcement learning from human feedback">RLHF</span> can improve the text2SQL generation (currently under ARR review). He also worked on Many-Shot text2SQL and text2SQL AutoEval using <span class="tooltip-text" data-toggle="tooltip" data-placement="top" title="Small Language Model">SLM</span>. He was mentored by [Vijay Kalmath](https://www.linkedin.com/in/vijay-kalmath/) and managed by [Dr. Adrian Lam](https://www.linkedin.com/in/ayplam/).
 
@@ -47,6 +47,7 @@ Shubhashis has a strong background in ML programming, including PyTorch, 🤗 Hu
 
 ## Research Interest
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Decomposition-based Reasoning using Multimodal Data  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ (Outcome & Intention Based) Video-Text Retrieval  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Reasoning over Math Data  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Reasoning using Multimodal Data  
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ (Outcome & Intention Based) Video-Text Retrieval   -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✓ Natural Language Understanding   
