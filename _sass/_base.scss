@@ -798,6 +798,16 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  .venue {
+    color: #dc3545;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  figure {
+    margin: 0;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -834,7 +844,15 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 400px;
+        // align-content: center;
+        text-align: center;
+        img {
+          width: auto;
+          max-width: 100%;
+          max-height: 200px;
+          border: 1px solid #0c0909;
+        }
       }
 
       .abbr {
