@@ -4,7 +4,7 @@ title: Projects
 hide_title: true
 permalink: /projects/
 description:
-nav: false
+nav: true
 nav_order: 2
 display_categories: [Machine-Learning, Data-Science, Data-Structures, Algorithms]
 ---
