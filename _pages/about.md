@@ -52,7 +52,7 @@ His current research explores presupposition-free question-based decomposition f
 
 In Summer 2025, he interned at **Amazon** (Alexa Team) as an Applied Scientist. He has shown how [Deliberative Alignment](https://arxiv.org/abs/2412.16339) technique can be used to optimize cost by ruducing token of the tool-calling LLMs (*paper coming soon*).  
 
-In Summer 2024, he interned at **Scale AI** (Enterprise Team) as a Machine Learning Researcher. He has explored how RL can for text-to-SQL generation and designing AutoEval using small-language-model reward functions ([Scale AI Blog](https://scale.com/blog/rlhf-text2sql)).
+In Summer 2024, he interned at **Scale AI** (Enterprise Team) as a Machine Learning Researcher. He has explored how RL can improve the text2SQL generation by using a small LLM-as-a-Judge during reinforcement loop ([Scale AI Blog](https://scale.com/blog/rlhf-text2sql)).
 
 {% include announcement.html %}
 
