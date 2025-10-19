@@ -1,5 +1,5 @@
 <div class="card info">
-    <div class="profile">
+    <div class="profile d-none d-lg-block">
         {%- if page.profile.image %}
         {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
         {%- assign profile_image_class = "img-fluid z-depth-1" -%}
@@ -21,11 +21,17 @@
     <div class="container" style="text-align: center;">
         <a class="btn-badge" href="{{ 'resume_roydipta.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
             rel="noopener noreferrer">Resume</a>
-        <a class="btn-badge" href="{{ 'cv_roydipta.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
-            rel="noopener noreferrer">CV</a>
+        <!-- <a class="btn-badge" href="{{ 'cv_roydipta.pdf' | prepend: 'assets/pdf/' | relative_url}}" target="_blank"
+            rel="noopener noreferrer">CV</a> -->
         <a class="btn-badge" href="https://scholar.google.com/citations?hl=en&user=j2ElsNIAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"
             rel="noopener noreferrer">Google Scholar</a>
     </div>
+
+    <p style="font-weight:normal; margin:0px; color: black; padding: 1rem; text-align: center;">
+		<!-- <s> -->
+			<span style="font-size: 1.2rem;"></span>✍🏻</span> I actively take notes on my research (<a href="https://notes.roydipta.com/?utm_source=roydipta.com&utm_medium=about-page" target="_blank" rel="noopener noreferrer">My Zettelkasten</a>)
+		<!-- </s> -->
+	</p>
 
     <hr class="seperator">
 
@@ -34,13 +40,23 @@
         {% include affiliations.html %}
     </div>
 
-    <hr class="seperator">
+    <!-- <hr class="seperator"> -->
 
     <!-- Services -->
-    <div class="container info-1">
+    <!-- <div class="container info-1 d-none d-lg-block">
         <h3 class="mb-3">Professional Services</h3>
         <div class="container">
             {% include service.html %}
+        </div>
+    </div> -->
+
+    <hr class="seperator">
+
+    <!-- Scholarly Contributions -->
+    <div class="container info-1">
+        <h3 class="mb-3">Scholarly Contributions</h3>
+        <div class="container">
+            {% include scholarly_contributions.html %}
         </div>
     </div>
 

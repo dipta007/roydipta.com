@@ -28,13 +28,15 @@ layout: default
           {{ content }}
         </div>
 
+        <div class="mt-4"></div>
+
         <!-- News -->
         {% if page.news and site.announcements.enabled -%}
-        <h2><a href="{{ '/news?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
+        <h4><a href="{{ '/news?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
             style="color: inherit;">Recent News
             <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
                 href="/news?utm_source=roydipta.com&utm_medium=about-page">See All</a>)</div>
-          </a></h2>
+          </a></h4>
         {%- include news.html limit=true %}
         {%- endif %}
   
@@ -82,11 +84,8 @@ layout: default
 
         <!-- Featured papers -->
         {% if page.selected_papers -%}
-        <h2><a href="{{ '/publications/?utm_source=roydipta.com&utm_medium=about-page' | relative_url }}"
-            style="color: inherit;">Featured Publications
-            <div style="font-style: italic; font-size: 1rem; display: inline;">(<a
-                href="/publications?utm_source=roydipta.com&utm_medium=about-page">Show More</a>)</div>
-          </a></h2>
+        <div class="mt-4"></div>
+        <h3>Featured Publications</h3>
         {%- include selected_papers.html %}
         {%- endif %}
       </article>
