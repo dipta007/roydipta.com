@@ -1,6 +1,8 @@
 {%- assign affiliations = site.affiliations | reverse -%}
 {% for item in affiliations %}
-<div class="container">
-    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-</div>
+    {% if item.enabled %}
+        <div class="container">
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+        </div>
+    {% endif %}
 {%- endfor %}

@@ -1,35 +1,35 @@
-"Rezaee":
-  - firstname: ["Mehdi", "M."]
-    url: https://scholar.google.com/citations?user=ZdhvnD8AAAAJ&hl=en
+# "Rezaee":
+#   - firstname: ["Mehdi", "M."]
+#     url: https://scholar.google.com/citations?user=ZdhvnD8AAAAJ&hl=en
 
-"Sarwar":
-  - firstname: ["Nobin", "N."]
-    url: https://scholar.google.com/citations?hl=en&user=7gRgh7QAAAAJ&view_op=list_works&sortby=pubdate
+# "Sarwar":
+#   - firstname: ["Nobin", "N."]
+#     url: https://scholar.google.com/citations?hl=en&user=7gRgh7QAAAAJ&view_op=list_works&sortby=pubdate
 
-"Ferraro":
-  - firstname: ["Francis", "F."]
-    url: https://redirect.cs.umbc.edu/~ferraro/
+# "Ferraro":
+#   - firstname: ["Francis", "F."]
+#     url: https://redirect.cs.umbc.edu/~ferraro/
 
-"Dehzangi":
-  - firstname: ["Iman", "I.", Abdollah, "A."]
-    url: https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/
+# "Dehzangi":
+#   - firstname: ["Iman", "I.", Abdollah, "A."]
+#     url: https://cs.camden.rutgers.edu/faculty-staff/iman-dehzangi-ph-d/
 
-"Taherzadeh":
-  - firstname: ["Ghazaleh", "G."]
-    url: https://www.wilkes.edu/campus-directory/ghazaleh.taherzadeh.aspx
+# "Taherzadeh":
+#   - firstname: ["Ghazaleh", "G."]
+#     url: https://www.wilkes.edu/campus-directory/ghazaleh.taherzadeh.aspx
 
-"Shatabda":
-  - firstname: ["Swakkhar", "S."]
-    url: https://scholar.google.com/citations?user=_D9NsFMAAAAJ&hl=en
+# "Shatabda":
+#   - firstname: ["Swakkhar", "S."]
+#     url: https://scholar.google.com/citations?user=_D9NsFMAAAAJ&hl=en
 
-"Sharma":
-  - firstname: ["Alok", "A."]
-    url: https://scholar.google.com/citations?user=RVEFII8AAAAJ&hl=en&oi=ao
+# "Sharma":
+#   - firstname: ["Alok", "A."]
+#     url: https://scholar.google.com/citations?user=RVEFII8AAAAJ&hl=en&oi=ao
 
-"Alinejad-Rokny":
-  - firstname: ["Hamid", "H."]
-    url: https://www.unsw.edu.au/staff/hamid-alinejad-rokny
+# "Alinejad-Rokny":
+#   - firstname: ["Hamid", "H."]
+#     url: https://www.unsw.edu.au/staff/hamid-alinejad-rokny
 
-"Saha":
-  - firstname: ["Sourajit", "S."]
-    url: https://sourajitcs.github.io/
+# "Saha":
+#   - firstname: ["Sourajit", "S."]
+#     url: https://sourajitcs.github.io/
