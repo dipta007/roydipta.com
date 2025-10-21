@@ -1,0 +1,48 @@
+{%- comment -%}
+Randomly select a profile picture from 0 to 7 (0.webp to 7.webp) using client-side JavaScript
+{%- endcomment -%}
+
+{% if page.profile.image_circular %}
+{%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+{% else %}
+{%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+{% endif %}
+
+<div id="random-profile-container" style="opacity: 0; transition: opacity 0.3s ease;">
+    {% include figure.html
+    path='assets/img/pps/0.webp'
+    class=profile_image_class
+    alt="Random Profile Picture"
+    cache_bust=true -%}
+</div>
+
+<script>
+(function() {
+    const profileImages = [
+        '{{ "assets/img/pps/0.webp" | relative_url }}',
+        '{{ "assets/img/pps/1.webp" | relative_url }}',
+        '{{ "assets/img/pps/2.webp" | relative_url }}',
+        '{{ "assets/img/pps/3.webp" | relative_url }}',
+        '{{ "assets/img/pps/4.webp" | relative_url }}',
+        '{{ "assets/img/pps/5.webp" | relative_url }}',
+        '{{ "assets/img/pps/6.webp" | relative_url }}',
+        '{{ "assets/img/pps/7.webp" | relative_url }}'
+    ];
+    
+    // Generate random index
+    const randomIndex = Math.floor(Math.random() * profileImages.length);
+    // choose index based on the current day starting from monday
+    // const currentDay = new Date().getDay();
+    // const index = currentDay % profileImages.length;
+    // const randomIndex = index;
+     // Update the image source
+     const container = document.getElementById('random-profile-container');
+     const img = container ? container.querySelector('img') : null;
+     console.log(randomIndex);
+     if (img) {
+         img.src = profileImages[randomIndex];
+         // Show the entire container after setting the correct source
+         container.style.opacity = '1';
+     }
+})()
+</script>

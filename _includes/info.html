@@ -1,15 +1,7 @@
 <div class="card info">
     <div class="profile d-none d-lg-block">
-        {%- if page.profile.image %}
-        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-        {%- assign profile_image_class = "img-fluid z-depth-1" -%}
 
-        {% include figure.html
-        path=profile_image_path
-        class=profile_image_class
-        alt=page.profile.image
-        cache_bust=true -%}
-        {% endif -%}
+        {% include random_pp.html %}
     </div>
 
     <div class="mt-4 d-block d-lg-none"></div>
