@@ -12,8 +12,9 @@ profile:
   image: prof_pic.jpg
   more_info: >
     <h4 class="mb-0">Shubhashis Roy Dipta</h4>
-    <p class="mb-1"><span class="emph">sroydip1</span>@<span class="emph">umbc</span>.<span class="emph">edu</span></p>
+    <p class="mb-0"><span class="emph">sroydip1</span>@<span class="emph">umbc</span>.<span class="emph">edu</span></p>
 
+upcoming_travel: true
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"

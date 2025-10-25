@@ -1,6 +1,5 @@
 <div class="card info">
     <div class="profile d-none d-lg-block">
-
         {% include random_pp.html %}
     </div>
 
@@ -21,10 +20,8 @@
             rel="noopener noreferrer">Google Scholar</a>
     </div>
 
-    <p style="font-weight:normal; margin:0px; color: black; padding: 1rem; text-align: center;">
-		<!-- <s> -->
-			<span style="font-size: 1.2rem;"></span>✍🏻</span> I actively take notes on my research (<a href="https://notes.roydipta.com/?utm_source=roydipta.com&utm_medium=about-page" target="_blank" rel="noopener noreferrer">My Zettelkasten</a>)
-		<!-- </s> -->
+    <p style="font-weight:normal; margin:0px; color: black; padding: 0.5rem; text-align: center;">
+        <span style="font-size: 1.2rem;"></span>✍🏻</span> I actively take notes on my research (<a href="https://notes.roydipta.com/?utm_source=roydipta.com&utm_medium=about-page" target="_blank" rel="noopener noreferrer">My Zettelkasten</a>)
 	</p>
 
     <hr class="seperator">
@@ -45,11 +42,15 @@
         </div>
     </div> -->
 
-    <hr class="seperator">
+    <!-- Upcoming Travel -->
+    {% include upcoming_travel.html %}
+    
+
+    <!-- <hr class="seperator"> -->
 
     <!-- Scholarly Contributions -->
     <div class="container info-1">
-        <h3 class="mb-3">Scholarly Contributions</h3>
+        <h3 class="mb-2">Scholarly Contributions</h3>
         <div class="container">
             {% include scholarly_contributions.html %}
         </div>
